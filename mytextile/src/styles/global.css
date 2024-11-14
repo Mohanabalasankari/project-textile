@@ -1,0 +1,17 @@
+/* Apply a background color or image for the entire website */
+body {
+    background-color: #F5F5DC; /* Replace with your desired color */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating of the background image */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Set a default font family */
+  }
+  
+  /* Optionally, you can set styles for the root container */
+  #root {
+    min-height: 100vh; /* Ensure it covers the full height */
+    display: flex;
+    flex-direction: column;
+  }
+  
